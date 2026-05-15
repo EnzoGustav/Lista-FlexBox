@@ -1,0 +1,72 @@
+body{
+
+    background-color: antiquewhite;
+
+}
+#container_ex1{
+    background-color: aliceblue;
+    display: flex;
+    width: 500;
+}
+
+#container_ex1 .size {
+    width: 80px;
+    height: 80px;
+
+}
+
+#container_ex1 .son1{
+    background-color: red;
+}
+
+#container_ex1 .son2{
+    background-color: orange;
+}
+
+#container_ex1 .son3{
+    background-color: yellow;
+}
+
+#container_ex1 .son4{
+    background-color: green;
+}
+
+#container_ex1 .son5{
+    background-color: blue;
+}
+
+#container_ex2{
+    background-color: aliceblue;
+    display: flex;
+    width: 500;
+    /*flex-direction: column; faz uma coluna*/
+    /*flex-direction: row; Fez uma linha*/
+    /*flex-direction: column-reverse; fez uma coluna com os item de baixo indo para cima (ao contrario)*/
+    /*flex-direction: row-reverse; fez uma linha com os item do outro lado*/
+}
+
+#container_ex2 .size {
+    width: 80px;
+    height: 80px;
+
+}
+
+    #container_ex2 .son1{
+        background-color: red;
+    }
+    
+    #container_ex2 .son2{
+        background-color: orange;
+    }
+    
+    #container_ex2 .son3{
+        background-color: yellow;
+    }
+    
+    #container_ex2 .son4{
+        background-color: green;
+    }
+    
+    #container_ex2 .son5{
+        background-color: blue;
+}

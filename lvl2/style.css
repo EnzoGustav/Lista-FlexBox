@@ -1,0 +1,75 @@
+body{
+
+    background-color: antiquewhite;
+
+}
+#container_ex1{
+    background-color: aliceblue;
+    display: flex;
+    width: 400px;
+    /*justify-content: flex-start; comando para ajeitar os item voltar ao inicio do local que esta alocado*/
+    /*justify-content: flex-end; comando para fazer os item irem para o final do local que esta alocado*/
+    /*justify-content: center; comando para fazer os item ficar no centro do local ao qual está alocado*/
+    /*justify-content: space-between; comando para separar os item em espaços iguais cobrindo todo o local alocado*/
+    /*justify-content: space-around; separa os item em espaços iguais da borda, deixando os item um pouco afastado das paredes*/
+    /*justify-content: space-evenly; separa os item um do outros e da borda com todos os espaços iguais*/ 
+}
+
+#container_ex1 .size {
+    width: 60px;
+    height: 60px;
+
+}
+
+#container_ex1 .son1{
+    background-color: red;
+}
+
+#container_ex1 .son2{
+    background-color: orange;
+}
+
+#container_ex1 .son3{
+    background-color: yellow;
+}
+
+#container_ex1 .son4{
+    background-color: green;
+}
+
+
+#container_ex2{
+    background-color: aliceblue;
+    display: flex;
+    height: 300px;
+    /*align-items: stretch;faz os item alocado se esticarem ate o tamanho limitado ou do local alocado*/
+    /*align-items: flex-start; alinha os item para o topo do local alocado*/
+    /*align-items: baseline; alinhas o texto aos item, sempre se ajustando ao que esta com maior fonte*/
+    /*align-items: flex-end; alinhas os item para parte inferior do local alocado*/
+    /*align-items: center; centraliza os item no centro do local alocado*/
+
+
+}
+
+    #container_ex2 .son1{
+        background-color: red;
+        width: 60px;
+        height: 60PX;
+        font-size: 60px;
+    }
+    
+    #container_ex2 .son2{
+        
+        background-color: orange;
+        width: 100px;
+        height: 100PX;
+        font-size: 60px;
+    }
+    
+    #container_ex2 .son3{
+        background-color: yellow;
+        width: 80px;
+        height: 80PX;
+        font-size: 80px;
+    }
+    
