@@ -1,0 +1,10 @@
+body{
+
+    background-color: antiquewhite;
+
+}
+#container_ex1{
+    background-color: aliceblue;
+    display: flex;
+    width: 400px;
+}
