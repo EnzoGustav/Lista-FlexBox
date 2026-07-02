@@ -3,7 +3,7 @@ body{
     background-color: antiquewhite;
 
 }
-#container_ex1{
+#container_ex3{
     background-color: aliceblue;
     display: flex;
     width: 400px;
@@ -15,30 +15,30 @@ body{
     /*justify-content: space-evenly; separa os item um do outros e da borda com todos os espaços iguais*/ 
 }
 
-#container_ex1 .size {
+#container_ex3 .size {
     width: 60px;
     height: 60px;
 
 }
 
-#container_ex1 .son1{
+#container_ex3 .son1{
     background-color: red;
 }
 
-#container_ex1 .son2{
+#container_ex3 .son2{
     background-color: orange;
 }
 
-#container_ex1 .son3{
+#container_ex3 .son3{
     background-color: yellow;
 }
 
-#container_ex1 .son4{
+#container_ex3 .son4{
     background-color: green;
 }
 
 
-#container_ex2{
+#container_ex4{
     background-color: aliceblue;
     display: flex;
     height: 300px;
@@ -51,14 +51,14 @@ body{
 
 }
 
-    #container_ex2 .son1{
+    #container_ex4 .son1{
         background-color: red;
         width: 60px;
         height: 60PX;
         font-size: 60px;
     }
     
-    #container_ex2 .son2{
+    #container_ex4 .son2{
         
         background-color: orange;
         width: 100px;
@@ -66,7 +66,7 @@ body{
         font-size: 60px;
     }
     
-    #container_ex2 .son3{
+    #container_ex4 .son3{
         background-color: yellow;
         width: 80px;
         height: 80PX;

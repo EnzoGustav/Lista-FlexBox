@@ -1,0 +1,94 @@
+body{
+    background-color: antiquewhite;
+    color: rgb(2, 2, 2);
+}
+
+#container_ex7{
+    background-color: aliceblue;
+    width: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#container_ex7 .size{
+    width: 120px;
+    height: 120px;
+}
+
+#container_ex7 .son1{
+    background-color: blue;
+    flex-grow: 1;
+}
+
+#container_ex7 .son2{
+    background-color: black;
+    flex-grow: 2;
+}
+
+#container_ex7 .son3{
+    background-color: yellow;
+    flex-grow: 1;
+}
+
+
+#container_ex8{
+    background-color: aliceblue;
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+#container_ex8 .size{
+    flex-basis: 200px;
+}
+
+#container_ex8 .son1{
+    background-color: blue;
+    flex-shrink: 2;
+}
+
+#container_ex8 .son2{
+    background-color: black;
+    flex-shrink: 1;
+}
+
+#container_ex8 .son3{
+    background-color: yellow;
+    flex-shrink: 0;
+}
+
+
+#container_ex9{
+    background-color: aliceblue;
+    width: 500px;
+    display: flex;
+}
+
+#container_ex9 .size{
+    width: 120px;
+    height: 120px;
+}
+
+#container_ex9 .son1{
+    background-color: blue;
+    order: 4;
+}
+
+#container_ex9 .son2{
+    background-color: black;
+    order: 3;
+}
+
+#container_ex9 .son3{
+    background-color: yellow;
+    order: 1;
+}
+
+#container_ex9 .son4{
+    background-color: rgb(148, 0, 0);
+    order: 2;
+}
